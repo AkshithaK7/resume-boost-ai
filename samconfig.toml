@@ -1,0 +1,10 @@
+version = 0.1
+
+[default.deploy.parameters]
+stack_name = "resume-boost-ai"
+resolve_s3 = true
+s3_prefix = "resume-boost-ai"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "S3BucketName=\"resume-boost-uploads-sainitesh-123\""
+image_repositories = []

@@ -1,0 +1,1 @@
+# This function only uses boto3 which is available in the Lambda runtime 
