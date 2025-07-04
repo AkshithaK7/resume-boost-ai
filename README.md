@@ -2,7 +2,7 @@
 
 A full-stack, serverless web application that helps job seekers intelligently tailor their resumes for specific job applications using Generative AI.
 
-## 🚀 Features
+## Features
 
 - **Achievement Miner**: Transforms passive job responsibilities into powerful, quantified achievements
 - **Culture & Values Alignment**: Analyzes company values and suggests edits to resonate with company culture
@@ -10,7 +10,7 @@ A full-stack, serverless web application that helps job seekers intelligently ta
 - **Fully Responsive UI**: Modern React interface that works seamlessly on desktop and mobile
 - **Serverless & Scalable**: Built on AWS serverless technology for cost-effectiveness and automatic scaling
 
-## 🏗️ Architecture
+## Architecture
 
 The application uses a decoupled frontend and backend architecture:
 
@@ -22,7 +22,7 @@ The application uses a decoupled frontend and backend architecture:
   - Amazon DynamoDB for data persistence
   - Amazon API Gateway for HTTP endpoints
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 resume-boost-ai/
@@ -39,7 +39,7 @@ resume-boost-ai/
 └── README.md                     # This file
 ```
 
-## 🛠️ Quick Start
+## Quick Start
 
 ### Frontend Development (Demo Mode)
 
@@ -82,20 +82,20 @@ resume-boost-ai/
 
 After deployment, update the `API_GATEWAY_URL` in `src/App.jsx` with your actual API Gateway endpoint URL and uncomment the real backend interaction code.
 
-## 🎯 Demo Mode
+## Demo Mode
 
 The application currently runs in demo mode, which means:
-- ✅ Frontend is fully functional
-- ✅ UI shows sample AI-generated results
-- ✅ No backend deployment required for testing
-- ⚠️ Real AI analysis requires backend deployment
+- Frontend is fully functional
+- UI shows sample AI-generated results
+- No backend deployment required for testing
+- Real AI analysis requires backend deployment
 
 To enable real AI analysis:
 1. Deploy the backend using the instructions above
 2. Update the API Gateway URL in `src/App.jsx`
 3. Uncomment the real backend interaction code
 
-## 🔧 AWS Services Used
+## AWS Services Used
 
 - **Amazon S3**: Secure file storage for uploaded resumes
 - **AWS Lambda**: Serverless compute for processing and API handling
@@ -104,7 +104,7 @@ To enable real AI analysis:
 - **Amazon API Gateway**: HTTP API for frontend communication
 - **AWS IAM**: Security and permissions management
 
-## 📊 Data Flow
+## Data Flow
 
 1. User uploads resume PDF and job description via React frontend
 2. File is uploaded to S3 bucket
@@ -114,7 +114,7 @@ To enable real AI analysis:
 6. Frontend polls API Gateway endpoint for results
 7. Results are displayed to user with actionable suggestions
 
-## 🎯 Key Features Implementation
+## Key Features Implementation
 
 ### Achievement Mining
 - Analyzes resume bullet points for passive language
@@ -126,7 +126,7 @@ To enable real AI analysis:
 - Identifies cultural keywords and priorities
 - Suggests resume edits that echo company culture
 
-## 🚀 Deployment
+## Deployment
 
 ### Frontend Deployment
 1. Build the React app: `npm run build`
@@ -139,21 +139,21 @@ To enable real AI analysis:
 3. Follow prompts to configure stack parameters
 4. Note the API Gateway URL for frontend configuration
 
-## 🔒 Security Considerations
+## Security Considerations
 
 - All Lambda functions use least-privilege IAM roles
 - S3 bucket has appropriate CORS configuration
 - API Gateway includes CORS headers for frontend access
 - DynamoDB uses on-demand billing for cost optimization
 
-## 📈 Monitoring and Logging
+## Monitoring and Logging
 
 - CloudWatch Logs for Lambda function monitoring
 - DynamoDB metrics for database performance
 - S3 access logs for file upload tracking
 - API Gateway metrics for endpoint usage
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -161,11 +161,11 @@ To enable real AI analysis:
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🆘 Support
+## Support
 
 For issues and questions:
 1. Check the AWS CloudWatch logs for backend errors
@@ -173,7 +173,7 @@ For issues and questions:
 3. Ensure all AWS services are properly configured
 4. Check browser console for frontend errors
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - Real-time progress updates
 - Multiple resume format support
