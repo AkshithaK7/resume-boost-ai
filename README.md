@@ -2,6 +2,13 @@
 
 A full-stack, serverless web application that helps job seekers intelligently tailor their resumes for specific job applications using Generative AI.
 
+## Contributors
+
+This project was developed collaboratively during the [AWS Lambda Hackathon, July 2025].
+
+- [@sainiteshb](https://github.com/sainiteshb) – Full-stack Development, Project Initiation  
+- [@AkshithaK7](https://github.com/AkshithaK7) – Backend Logic, Resume Analysis, AI Integration
+
 ## Features
 
 - **Achievement Miner**: Transforms passive job responsibilities into powerful, quantified achievements
